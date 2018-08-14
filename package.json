@@ -1,0 +1,22 @@
+{
+  "name": "redux-aggregate-docs",
+  "version": "1.0.0",
+  "description": "document of redux-aggregate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takefumi-yoshii/redux-aggregate-docs.git"
+  },
+  "author": "takefui-yoshii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takefumi-yoshii/redux-aggregate-docs/issues"
+  },
+  "homepage": "https://github.com/takefumi-yoshii/redux-aggregate-docs#readme",
+  "dependencies": {
+    "gitbook": "^3.2.3"
+  }
+}
