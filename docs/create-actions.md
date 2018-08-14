@@ -17,4 +17,4 @@ const {
 
 **By this alone, completed to define AcrtionCreators with inferred type.**
 
-Related: [ActionSources ->](actionSources.md)
+Related: [ActionSources ->](action-sources.md)

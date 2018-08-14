@@ -33,9 +33,9 @@ export const Mutations = {
 }
 ```
 
-Related: [createAggregate ->](createAggregate.md)
+Related: [createAggregate ->](create-aggregate.md)
 
 ### ❓ How to define many-to-many
 
-If need to extract definition of Actions, use [createActions](createActions.md).  
+If need to extract definition of Actions, use [createActions](create-actions.md).  
 If need to extract definition of Reducers, use [subscribe](subscribe.md) and [subscriptions](subscriptions.md).

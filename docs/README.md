@@ -10,16 +10,16 @@ Minimum code is as follows.The comfortable code is maintain quality.
 ### Concepts
 
 * [Index](concepts.md)
-* [Inferred Types](inferredTypes.md)
+* [InferredTypes](inferred-types.md)
 * [Mutations](mutations.md)
-* [ActionSrc](actionSources.md)
+* [ActionSrc](action-sources.md)
 * [Subscriptions](subscriptions.md)
 * [Queries](queries.md)
 
 ### Usage
 
-* [createAggregate](createAggregate.md)
-* [createActions](createActions.md)
+* [createAggregate](create-aggregate.md)
+* [createActions](create-actions.md)
 * [subscribe](subscribe.md)
 
 ### Advanced Feature

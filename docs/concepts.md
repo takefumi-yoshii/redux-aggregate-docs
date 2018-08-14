@@ -10,8 +10,8 @@ I think it is important to extend the life of the code / accompanying test.
 Strong type definition by TypeScript,and ecosystems of supported by community.
 I believe this will be its hub.
 
-* [Inferred Types](inferredTypes.md)
+* [InferredTypes](inferred-types.md)
 * [Mutations](mutations.md)
-* [ActionSrc](actionSources.md)
+* [ActionSrc](action-sources.md)
 * [Subscriptions](subscriptions.md)
 * [Queries](queries.md)

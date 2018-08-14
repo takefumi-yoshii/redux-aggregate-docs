@@ -29,4 +29,4 @@ function tick(message) {
 export const ActionSources = { tick }
 ```
 
-Related: [createActions ->](createActions.md)
+Related: [createActions ->](create-actions.md)

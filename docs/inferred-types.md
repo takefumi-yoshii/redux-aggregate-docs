@@ -3,7 +3,7 @@
 ### 🔥 Surprisingly small type definition
 
 Traditional Redux could not be said to be compatible with type for ActionType.
-One purpose of this helper is to guide inferred types in every corner with minimal definition.
+One purpose of this helper is to guide InferredTypes in every corner with minimal definition.
 
 By the map of Type inference in conditional types, 
 mutation's second argument will map to action creator's payload.
