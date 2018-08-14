@@ -1,6 +1,6 @@
 # Subscriptions
 
-### Expand reducer
+### 🛠 Expand reducer progressively
 
 Subscription map in the same file scope where defined state.
 It looks like a mutations but does not generate an `ActionType / ActionCreator`.

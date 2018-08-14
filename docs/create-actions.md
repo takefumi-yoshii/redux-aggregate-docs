@@ -1,6 +1,6 @@
 # createActions
 
-### ✅ Reduce verbose action type
+### 🌎 Anything will happen
 
 This api return `ActionTypes / ActionCreators`.
 First argument is map of `ActionSources`.
@@ -15,6 +15,6 @@ const {
 } = createActions(ActionSources, 'timer/')
 ```
 
-**By this alone, completed to define AcrtionCreators with inferred type.**
+**By this alone, completed to define AcrtionTypes/AcrtionCreators with inferred type.**
 
 Related: [ActionSources ->](action-sources.md)

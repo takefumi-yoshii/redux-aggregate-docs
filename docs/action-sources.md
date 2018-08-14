@@ -1,8 +1,8 @@
 # ActionSources
 
-### Traditional ActionCreator
+### ✨ Pureness was kept
 
-Return value and action type was tightly coupled.
+Traditional ActionCreator's return type and paylaod was tightly coupled.
 
 ```javascript
 function tick(message) {
@@ -12,9 +12,7 @@ function tick(message) {
 }
 ```
 
-### Pure Function (ActionSrc)
-
-ActionSrc for `createActions` is just a pure javascript function with I/O. Arguments is optional.
+ActionSources for `createActions` is just a pure javascript function's map. Arguments is optional.
 
 ```javascript
 // ______________________________________________________

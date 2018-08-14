@@ -3,16 +3,14 @@
 [![Latest Version](https://img.shields.io/badge/npm-redux_aggregate-C12127.svg)](https://www.npmjs.com/package/redux-aggregate)
 [![CircleCI](https://circleci.com/gh/takefumi-yoshii/redux-aggregate.svg?style=svg)](https://circleci.com/gh/takefumi-yoshii/redux-aggregate)
 
-The tiny ~550b helper module making Redux more usable.
-Inspired by [unistore](https://github.com/developit/unistore).
-Minimum code is as follows.The comfortable code is maintain quality.  
+State management is core of the application.The purpose of this library is to make the application core independent by pure language specification.
 
 ### Concepts
 
 * [Index](concepts.md)
 * [InferredTypes](inferred-types.md)
 * [Mutations](mutations.md)
-* [ActionSrc](action-sources.md)
+* [ActionSources](action-sources.md)
 * [Subscriptions](subscriptions.md)
 * [Queries](queries.md)
 

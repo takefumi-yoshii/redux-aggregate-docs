@@ -1,6 +1,6 @@
-# Subscribe
+# subscribe
 
-### ❓ How to caught outside actions?
+### 📡 Caught outside Actions
 
 Aggregate contain method of `subscribe` action.
 In the example below, subscribe TimerActions.

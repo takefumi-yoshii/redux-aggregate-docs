@@ -12,7 +12,7 @@ Minimum code is as follows.The comfortable code is maintain quality.
 * [Index](concepts.md)
 * [InferredTypes](inferred-types.md)
 * [Mutations](mutations.md)
-* [ActionSrc](action-sources.md)
+* [ActionSources](action-sources.md)
 * [Subscriptions](subscriptions.md)
 * [Queries](queries.md)
 

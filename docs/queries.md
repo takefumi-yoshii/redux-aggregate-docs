@@ -1,6 +1,6 @@
 # Queries
 
-### Give the behavior of Model to State
+### 🎖 Give the behavior of Model to State
 
 Normal Redux only projects state, but depending on requirements, this will be unsatisfactory.
 
