@@ -11,4 +11,5 @@
   * [createAggregate](create-aggregate.md)
   * [createActions](create-actions.md)
   * [subscribe](subscribe.md)
-* [redux-aggregate-immer](redux-aggregate-immer.md)
+* [AdvancedFeature](advanced-feature.md)
+  * [redux-aggregate-immer](redux-aggregate-immer.md)

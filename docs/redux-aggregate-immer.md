@@ -1,5 +1,7 @@
 # redux-aggregate-immer
 
+### 🏝 What you want to do Frankly
+
 [redux-aggregate-immer](https://www.npmjs.com/package/redux-aggregate-immer) is the helper module for redux-aggregate.
 Below code be able to write more comfortable, with `wrapImmer`.
 
