@@ -17,7 +17,7 @@ const {
 } = createAggregate(Mutations, 'counter/')
 ```
 
-**By this alone, completed to define AcrtionTypes/AcrtionCreators/ReducerFactory with inferred type.**
+**By this alone, completed to define ActionTypes/ActionCreators/ReducerFactory with inferred type.**
 
 Mutaions is immutable mutate functions for state.
 Generate boilerplate starting from this MutationsMap.

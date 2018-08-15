@@ -15,6 +15,6 @@ const {
 } = createActions(ActionSources, 'timer/')
 ```
 
-**By this alone, completed to define AcrtionTypes/AcrtionCreators with inferred type.**
+**By this alone, completed to define ActionTypes/ActionCreators with inferred type.**
 
 Related: [ActionSources ->](action-sources.md)
