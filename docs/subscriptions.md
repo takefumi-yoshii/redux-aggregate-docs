@@ -15,7 +15,7 @@ The only remaining work is to define change the state.
 ```javascript
 const TodosState = {
   date: new Date(),
-  shouldUpdateTimerView: true,
+  shouldUpdateDate: true,
   messegaFromTimer: 'no message available'
 }
 // ______________________________________________________
@@ -25,13 +25,32 @@ const TodosState = {
 export const TodosSubscriptions = {
   Timer: {
     tick(state, date) {
-      if (!state.shouldUpdateTimerView) return state
+      if (!state.shouldUpdateDate) return state
       return { ...state, date }
     }
-    notifyProgressMessage(state, { message }) {
+    notifyMessage(state, { message }) {
       return { ...state, messegaFromTimer: message }
     }
   }
+}
+```
+
+Timer ActionSources defined as follows.
+
+```javascript
+// ______________________________________________________
+//
+// @ ActionSources
+
+function tick() {
+  return new Date()
+}
+function notifyMessage(message = 'start tick') {
+  return { message }
+}
+export const ActionSources = {
+  tick,
+  notifyMessage
 }
 ```
 
