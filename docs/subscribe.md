@@ -4,6 +4,7 @@
 
 Aggregate contain method of `subscribe` action.
 In the example below, subscribe TimerActions.
+**It be required `Subscriptions` for subscribe.** (TodosSB.Timer as follows)
 
 ```javascript
 import { createAggregate, createActions } from 'redux-aggregate'
@@ -17,9 +18,27 @@ export const Timer = createActions(TimerAC, 'timer/')
 export const Todos = createAggregate(TodosMT, 'todos/')
 Todos.subscribe(Timer, TodosSB.Timer)
 ```
-
-The map of `Subscriptions`, It looks very much like mutations.  
-**But, that will not to generete ActionCreator / ActionTypes.**  
-That's exactly what unit reducer.
-
 Related: [subscriptions ->](subscriptions.md)
+
+### 🛰 Upstream subscribing of Downstream
+
+Being able to subscribe is not just `Actions`.
+An aggregate be able to subscribe another aggregate actions.
+As with `Actions`, the Downstream aggregate follows Upstream aggregate function name and payload.
+In some cases, there are aggregates that do not have mutations. (Summary as follows)
+
+```javascript
+// ______________________________________________________
+//
+// @ Aggregates
+
+export const Timer = createActions(TimerAC, 'timer/')
+export const Counter = createAggregate(CounterMT, 'counter/')
+export const Todos = createAggregate(TodosMT, 'todos/')
+export const Summary = createAggregate({}, 'summary/')
+Todos.subscribe(Timer, TodosSB.Timer)
+Counter.subscribe(Timer, CounterSB.Timer)
+Summary.subscribe(Timer, SummarySB.Timer)
+Summary.subscribe(Counter, SummarySB.Counter)
+Summary.subscribe(Todos, SummarySB.Todos)
+```

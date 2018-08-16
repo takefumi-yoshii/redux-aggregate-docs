@@ -1,6 +1,6 @@
 # redux-aggregate-immer
 
-### 🏝 What you want to do Frankly
+### 🏝 What you want to do frankly
 
 [redux-aggregate-immer](https://www.npmjs.com/package/redux-aggregate-immer) is the helper module for redux-aggregate.
 Below code be able to write more comfortable, with `wrapImmer`.
@@ -21,7 +21,7 @@ function increment(state) {
 function idecrement(state) {
   return { ...state, count: state.count - 1 }
 }
-function setNestedValue (s, value) {
+function setNestedValue(s, value) {
   return {
     ...state,
     nested: {
@@ -60,7 +60,7 @@ function increment(state) {
 function idecrement(state) {
   state.count--
 }
-function setNestedValue (state, value) {
+function setNestedValue(state, value) {
   state.nested.some.value = value
 }
 export const Mutations = wrapImmer({

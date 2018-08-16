@@ -12,7 +12,9 @@ function tick(message) {
 }
 ```
 
-ActionSources for `createActions` is just a pure javascript function's map. Arguments is optional.
+ActionSources for `createActions` is just a pure javascript function's map.
+Input argument and return value is optional.
+**This is pure function for all.**
 
 ```javascript
 // ______________________________________________________
@@ -25,6 +27,15 @@ function tick(message) {
   return { date, message }
 }
 export const ActionSources = { tick }
+```
+
+If you call `createActions` with this ActionSources and `timer/` namespace, it will be behave as follows.
+
+```javascript
+const { types, creators } = createActions(ActionSources, 'timer/')
+const { type, payload } = creators.tick('current time notification')
+console.log(types.tick) // timer/tick
+console.log(type, payload.message) // timer/tick, 'current time notification'
 ```
 
 Related: [createActions ->](create-actions.md)

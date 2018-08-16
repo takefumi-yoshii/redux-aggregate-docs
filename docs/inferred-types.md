@@ -2,7 +2,7 @@
 
 ### 🔥 Surprisingly small type definition
 
-Traditional Redux could not be said to be compatible with type for ActionType.
+Traditional Redux could not be said to be compatible with static type for ActionType.
 One purpose of this helper is to guide InferredTypes in every corner with minimal definition.
 
 By the map of Type inference in conditional types, 

@@ -23,7 +23,7 @@ function increment(state) {
 function decrement(state) {
   return { ...state, count: state.count - 1 }
 }
-function setCount (state, value) {
+function setCount(state, value) {
   return { ...state, count: value }
 }
 export const Mutations = {
@@ -31,6 +31,15 @@ export const Mutations = {
   decrement,
   setCount
 }
+```
+
+If you call `createAggregate` with this Mutations and `counter/` namespace, it will be behave as follows.
+
+```javascript
+const { types, creators } = createAggregate(Mutations, 'counter/')
+const { type, payload } = creators.setCount(100)
+console.log(types.setCount) // counter/setCount
+console.log(type, payload) // counter/setCount, 100
 ```
 
 Related: [createAggregate ->](create-aggregate.md)

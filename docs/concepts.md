@@ -2,7 +2,7 @@
 
 ## State management is core of the application.
 
-The purpose of this library is to make the application core independent by pure language specification.Persistent code does not need to be closely related to Redux concept.I think it is important to extend the life of the code / accompanying test.Redux already has strong type definition by TypeScript,and ecosystems of supported by community.I believe this will be its hub.
+The purpose of this library is to make the application core independent by pure language specification.Persistent code does not need to be closely related to Redux concept.I think it is important to extend the life of the code / accompanying test.Redux already has strong type definition by TypeScript,and ecosystems of supported by community.I believe this will be able to hub of them.
 
 ___
 
@@ -30,6 +30,3 @@ You may be interested in external Actions in the future. This helper can expand 
 
 Are you leaking a lot of knowledge in View? This helper recommend to give behavior as model to state.
 * [Queries](queries.md)
-
-
-for state

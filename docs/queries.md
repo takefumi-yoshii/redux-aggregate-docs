@@ -17,10 +17,10 @@ const state = {
 //
 // @ Queries
 
-function expo2 (state) {
+function expo2(state) {
   return state.count ** 2
 }
-function getCountLabel (state) {
+function getCountLabel(state) {
   return `${state.count}${state.unit}`
 }
 export const Queries = {

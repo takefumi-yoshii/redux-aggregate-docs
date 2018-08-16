@@ -6,14 +6,6 @@ The purpose of this library is to make the application core independent by pure 
 
 ___
 
-### 🚀 Accelerate development
+### 🏝 What you want to do frankly
 
-* [createAggregate](create-aggregate.md)
-
-### 🌎 Anything will happen
-
-* [createActions](create-actions.md)
-
-### 📡 Caught outside Actions
-
-* [subscribe](subscribe.md)
+* [redux-aggregate-immer](redux-aggregate-immer.md)
