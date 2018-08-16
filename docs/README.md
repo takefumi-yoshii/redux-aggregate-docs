@@ -23,6 +23,6 @@ ___
 * [createActions](create-actions.md)
 * [subscribe](subscribe.md)
 
-### [Advanced Feature](advanced-feature.md)
+### [Utils](utils.md)
 
 * [redux-aggregate-immer](redux-aggregate-immer.md)
