@@ -14,6 +14,10 @@ ___
 
 * [createActions](create-actions.md)
 
+### 🛰 Anything can receive
+
+* [createSubscriber](create-subscriber.md)
+
 ### 📡 Caught outside Actions
 
 * [subscribe](subscribe.md)

@@ -10,6 +10,7 @@
 * [APIs](apis.md)
   * [createAggregate](create-aggregate.md)
   * [createActions](create-actions.md)
+  * [createSubscriber](create-subscriber.md)
   * [subscribe](subscribe.md)
 * [Utils](utils.md)
   * [redux-aggregate-immer](redux-aggregate-immer.md)

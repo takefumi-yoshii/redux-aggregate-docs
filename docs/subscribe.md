@@ -20,12 +20,11 @@ Todos.subscribe(Timer, TodosSB.Timer)
 ```
 Related: [subscriptions ->](subscriptions.md)
 
-### 🛰 Upstream subscribing of Downstream
+### Upstream subscribing of Downstream
 
 Being able to subscribe is not just `Actions`.
 An aggregate be able to subscribe another aggregate actions.
 As with `Actions`, the Downstream aggregate follows Upstream aggregate function name and payload.
-In some cases, there are aggregates that do not have mutations. (Summary as follows)
 
 ```javascript
 // ______________________________________________________
@@ -35,7 +34,7 @@ In some cases, there are aggregates that do not have mutations. (Summary as foll
 export const Timer = createActions(TimerAC, 'timer/')
 export const Counter = createAggregate(CounterMT, 'counter/')
 export const Todos = createAggregate(TodosMT, 'todos/')
-export const Summary = createAggregate({}, 'summary/')
+export const Summary = createSubscriber()
 Todos.subscribe(Timer, TodosSB.Timer)
 Counter.subscribe(Timer, CounterSB.Timer)
 Summary.subscribe(Timer, SummarySB.Timer)
