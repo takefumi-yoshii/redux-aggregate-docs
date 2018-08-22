@@ -1,6 +1,6 @@
 # createSubscriber
 
-### 🛰 Anything can receive
+### 🛰 Everything can receive
 
 Here we are creating Redux reducer with `createSubscriber`.  
 `Subscriber` contains `ReducerFactory`.  

@@ -14,7 +14,7 @@ ___
 
 * [createActions](create-actions.md)
 
-### 🛰 Anything can receive
+### 🛰 Everything can receive
 
 * [createSubscriber](create-subscriber.md)
 
